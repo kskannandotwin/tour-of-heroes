@@ -12,6 +12,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { HelloWorldComponent } from './hello-world/hello-world.component';
+import { HelloWorldInterpolationComponent } from './hello-world-interpolation/hello-world-interpolation.component';
+import { HelloWorldBindingsComponent } from './hello-world-bindings/hello-world-bindings.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    HelloWorldComponent,
+    HelloWorldInterpolationComponent,
+    HelloWorldBindingsComponent
   ],
   imports: [
     BrowserModule,
