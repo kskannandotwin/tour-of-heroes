@@ -15,6 +15,9 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { HelloWorldInterpolationComponent } from './hello-world-interpolation/hello-world-interpolation.component';
 import { HelloWorldBindingsComponent } from './hello-world-bindings/hello-world-bindings.component';
+import { HelloWorldNgifComponent } from './hello-world-ngif/hello-world-ngif.component';
+import { HelloWorldTemplateComponent } from './hello-world-template-component';
+import { HelloWorldDiComponent } from './hello-world-di/hello-world-di.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { HelloWorldBindingsComponent } from './hello-world-bindings/hello-world-
     HeroSearchComponent,
     HelloWorldComponent,
     HelloWorldInterpolationComponent,
-    HelloWorldBindingsComponent
+    HelloWorldBindingsComponent,
+    HelloWorldNgifComponent,
+    HelloWorldTemplateComponent,
+    HelloWorldDiComponent
   ],
   imports: [
     BrowserModule,

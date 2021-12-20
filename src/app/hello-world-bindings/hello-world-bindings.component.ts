@@ -1,14 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'hello-world-bindings',
   templateUrl: './hello-world-bindings.component.html'
 })
-export class HelloWorldBindingsComponent implements OnInit {
+export class HelloWorldBindingsComponent {
 
-  constructor() { }
+  canClick = false;
+  message = 'Hello World !';
+  sayHelloId = 1;
+  fontColor = 'blue';
 
-  ngOnInit(): void {
+  sayMessage() {
+    alert(this.message);
   }
 
 }
